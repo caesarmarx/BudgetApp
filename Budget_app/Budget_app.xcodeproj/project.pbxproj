@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD28F3841E398CF0009C1A46 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3831E398CF0009C1A46 /* ReservationViewController.swift */; };
+		DD28F3A81E3997D0009C1A46 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3881E3997D0009C1A46 /* FSCalendar.m */; };
+		DD28F3A91E3997D0009C1A46 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3891E3997D0009C1A46 /* FSCalendar+Deprecated.m */; };
+		DD28F3AA1E3997D0009C1A46 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F38B1E3997D0009C1A46 /* FSCalendarAppearance.m */; };
+		DD28F3AB1E3997D0009C1A46 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F38D1E3997D0009C1A46 /* FSCalendarCalculator.m */; };
+		DD28F3AC1E3997D0009C1A46 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F38F1E3997D0009C1A46 /* FSCalendarCell.m */; };
+		DD28F3AD1E3997D0009C1A46 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3911E3997D0009C1A46 /* FSCalendarCollectionView.m */; };
+		DD28F3AE1E3997D0009C1A46 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3931E3997D0009C1A46 /* FSCalendarCollectionViewLayout.m */; };
+		DD28F3AF1E3997D0009C1A46 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3951E3997D0009C1A46 /* FSCalendarConstants.m */; };
+		DD28F3B01E3997D0009C1A46 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3971E3997D0009C1A46 /* FSCalendarDelegationFactory.m */; };
+		DD28F3B11E3997D0009C1A46 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3991E3997D0009C1A46 /* FSCalendarDelegationProxy.m */; };
+		DD28F3B21E3997D0009C1A46 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F39C1E3997D0009C1A46 /* FSCalendarExtensions.m */; };
+		DD28F3B31E3997D0009C1A46 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F39E1E3997D0009C1A46 /* FSCalendarHeaderView.m */; };
+		DD28F3B41E3997D0009C1A46 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3A01E3997D0009C1A46 /* FSCalendarScopeHandle.m */; };
+		DD28F3B51E3997D0009C1A46 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3A21E3997D0009C1A46 /* FSCalendarStickyHeader.m */; };
+		DD28F3B61E3997D0009C1A46 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3A41E3997D0009C1A46 /* FSCalendarTransitionCoordinator.m */; };
+		DD28F3B71E3997D0009C1A46 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3A61E3997D0009C1A46 /* FSCalendarWeekdayView.m */; };
+		DD28F3B81E3997D0009C1A46 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD28F3A71E3997D0009C1A46 /* Info.plist */; };
+		DD28F3BB1E39A71B009C1A46 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3BA1E39A71B009C1A46 /* LeaderboardViewController.swift */; };
+		DD28F3BF1E39D4AB009C1A46 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3BE1E39D4AB009C1A46 /* SuggestionViewController.swift */; };
+		DD28F3C11E39DC71009C1A46 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3C01E39DC71009C1A46 /* RandomViewController.swift */; };
+		DD28F3C31E39EF1A009C1A46 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28F3C21E39EF1A009C1A46 /* AboutViewController.swift */; };
+		DD4CBA021E436E210070F0D3 /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CBA011E436E210070F0D3 /* RatingBar.swift */; };
+		DD671A231E3B53C300AB0FEC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD671A221E3B53C200AB0FEC /* Utils.swift */; };
+		DD9237D41E38333A0010EF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9237D31E38333A0010EF71 /* AppDelegate.swift */; };
+		DD9237D91E38333A0010EF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9237D71E38333A0010EF71 /* Main.storyboard */; };
+		DD9237DB1E38333A0010EF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9237DA1E38333A0010EF71 /* Assets.xcassets */; };
+		DD9237DE1E38333A0010EF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9237DC1E38333A0010EF71 /* LaunchScreen.storyboard */; };
+		DD9237E91E38333A0010EF71 /* Budget_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9237E81E38333A0010EF71 /* Budget_appTests.swift */; };
+		DD9237F41E38333A0010EF71 /* Budget_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9237F31E38333A0010EF71 /* Budget_appUITests.swift */; };
+		DD9238031E383D0B0010EF71 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9238021E383D0B0010EF71 /* StartViewController.swift */; };
+		DD9238051E38B4080010EF71 /* PunchCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9238041E38B4080010EF71 /* PunchCardController.swift */; };
+		DD9238101E38DA950010EF71 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD92380F1E38DA950010EF71 /* SWRevealViewController.m */; };
+		DD9238131E391FFA0010EF71 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9238121E391FFA0010EF71 /* MenuViewController.swift */; };
+		DDAA63D61E3F8BE8004F9829 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA63D51E3F8BE8004F9829 /* WebViewController.swift */; };
+		DDACA61D1E3E49F7008D1E5F /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6131E3E49F7008D1E5F /* QRCodeReader.swift */; };
+		DDACA61E1E3E49F7008D1E5F /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6141E3E49F7008D1E5F /* QRCodeReaderResult.swift */; };
+		DDACA61F1E3E49F7008D1E5F /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6151E3E49F7008D1E5F /* QRCodeReaderView.swift */; };
+		DDACA6201E3E49F7008D1E5F /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6161E3E49F7008D1E5F /* QRCodeReaderViewContainer.swift */; };
+		DDACA6211E3E49F7008D1E5F /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6171E3E49F7008D1E5F /* QRCodeReaderViewController.swift */; };
+		DDACA6221E3E49F7008D1E5F /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6181E3E49F7008D1E5F /* QRCodeReaderViewControllerBuilder.swift */; };
+		DDACA6231E3E49F7008D1E5F /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA6191E3E49F7008D1E5F /* QRCodeReaderViewControllerDelegate.swift */; };
+		DDACA6241E3E49F7008D1E5F /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA61A1E3E49F7008D1E5F /* ReaderOverlayView.swift */; };
+		DDACA6251E3E49F7008D1E5F /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA61B1E3E49F7008D1E5F /* SwitchCameraButton.swift */; };
+		DDACA6261E3E49F7008D1E5F /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACA61C1E3E49F7008D1E5F /* ToggleTorchButton.swift */; };
+		DDCA84071E3A6FE800240A8B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84061E3A6FE800240A8B /* Toast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9237E51E38333A0010EF71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9237C81E3833390010EF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9237CF1E3833390010EF71;
+			remoteInfo = Budget_app;
+		};
+		DD9237F01E38333A0010EF71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9237C81E3833390010EF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9237CF1E3833390010EF71;
+			remoteInfo = Budget_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD28F3831E398CF0009C1A46 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		DD28F3871E3997D0009C1A46 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		DD28F3881E3997D0009C1A46 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		DD28F3891E3997D0009C1A46 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		DD28F38A1E3997D0009C1A46 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		DD28F38B1E3997D0009C1A46 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		DD28F38C1E3997D0009C1A46 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		DD28F38D1E3997D0009C1A46 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		DD28F38E1E3997D0009C1A46 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		DD28F38F1E3997D0009C1A46 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		DD28F3901E3997D0009C1A46 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		DD28F3911E3997D0009C1A46 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		DD28F3921E3997D0009C1A46 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		DD28F3931E3997D0009C1A46 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		DD28F3941E3997D0009C1A46 /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		DD28F3951E3997D0009C1A46 /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		DD28F3961E3997D0009C1A46 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		DD28F3971E3997D0009C1A46 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		DD28F3981E3997D0009C1A46 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		DD28F3991E3997D0009C1A46 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		DD28F39A1E3997D0009C1A46 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		DD28F39B1E3997D0009C1A46 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		DD28F39C1E3997D0009C1A46 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		DD28F39D1E3997D0009C1A46 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		DD28F39E1E3997D0009C1A46 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		DD28F39F1E3997D0009C1A46 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = FSCalendar/FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		DD28F3A01E3997D0009C1A46 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = FSCalendar/FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		DD28F3A11E3997D0009C1A46 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		DD28F3A21E3997D0009C1A46 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		DD28F3A31E3997D0009C1A46 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		DD28F3A41E3997D0009C1A46 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		DD28F3A51E3997D0009C1A46 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		DD28F3A61E3997D0009C1A46 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		DD28F3A71E3997D0009C1A46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FSCalendar/Info.plist; sourceTree = "<group>"; };
+		DD28F3BA1E39A71B009C1A46 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		DD28F3BE1E39D4AB009C1A46 /* SuggestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		DD28F3C01E39DC71009C1A46 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		DD28F3C21E39EF1A009C1A46 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DD4CBA011E436E210070F0D3 /* RatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		DD671A221E3B53C200AB0FEC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DD9237D01E38333A0010EF71 /* Budget_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9237D31E38333A0010EF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9237D81E38333A0010EF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9237DA1E38333A0010EF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9237DD1E38333A0010EF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9237DF1E38333A0010EF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9237E41E38333A0010EF71 /* Budget_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Budget_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9237E81E38333A0010EF71 /* Budget_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_appTests.swift; sourceTree = "<group>"; };
+		DD9237EA1E38333A0010EF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9237EF1E38333A0010EF71 /* Budget_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Budget_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9237F31E38333A0010EF71 /* Budget_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_appUITests.swift; sourceTree = "<group>"; };
+		DD9237F51E38333A0010EF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9238021E383D0B0010EF71 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DD9238041E38B4080010EF71 /* PunchCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunchCardController.swift; sourceTree = "<group>"; };
+		DD92380D1E38DA950010EF71 /* Budget_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Budget_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD92380E1E38DA950010EF71 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		DD92380F1E38DA950010EF71 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		DD9238121E391FFA0010EF71 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DDAA63D51E3F8BE8004F9829 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DDACA6131E3E49F7008D1E5F /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = QRCodeReader/QRCodeReader.swift; sourceTree = "<group>"; };
+		DDACA6141E3E49F7008D1E5F /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = QRCodeReader/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		DDACA6151E3E49F7008D1E5F /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = QRCodeReader/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		DDACA6161E3E49F7008D1E5F /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = QRCodeReader/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		DDACA6171E3E49F7008D1E5F /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = QRCodeReader/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		DDACA6181E3E49F7008D1E5F /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = QRCodeReader/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		DDACA6191E3E49F7008D1E5F /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = QRCodeReader/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DDACA61A1E3E49F7008D1E5F /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = QRCodeReader/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		DDACA61B1E3E49F7008D1E5F /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = QRCodeReader/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		DDACA61C1E3E49F7008D1E5F /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = QRCodeReader/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		DDCA84061E3A6FE800240A8B /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9237CD1E3833390010EF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237E11E38333A0010EF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237EC1E38333A0010EF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD28F3B91E3997DA009C1A46 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				DD28F3871E3997D0009C1A46 /* FSCalendar.h */,
+				DD28F3881E3997D0009C1A46 /* FSCalendar.m */,
+				DD28F3891E3997D0009C1A46 /* FSCalendar+Deprecated.m */,
+				DD28F38A1E3997D0009C1A46 /* FSCalendarAppearance.h */,
+				DD28F38B1E3997D0009C1A46 /* FSCalendarAppearance.m */,
+				DD28F38C1E3997D0009C1A46 /* FSCalendarCalculator.h */,
+				DD28F38D1E3997D0009C1A46 /* FSCalendarCalculator.m */,
+				DD28F38E1E3997D0009C1A46 /* FSCalendarCell.h */,
+				DD28F38F1E3997D0009C1A46 /* FSCalendarCell.m */,
+				DD28F3901E3997D0009C1A46 /* FSCalendarCollectionView.h */,
+				DD28F3911E3997D0009C1A46 /* FSCalendarCollectionView.m */,
+				DD28F3921E3997D0009C1A46 /* FSCalendarCollectionViewLayout.h */,
+				DD28F3931E3997D0009C1A46 /* FSCalendarCollectionViewLayout.m */,
+				DD28F3941E3997D0009C1A46 /* FSCalendarConstants.h */,
+				DD28F3951E3997D0009C1A46 /* FSCalendarConstants.m */,
+				DD28F3961E3997D0009C1A46 /* FSCalendarDelegationFactory.h */,
+				DD28F3971E3997D0009C1A46 /* FSCalendarDelegationFactory.m */,
+				DD28F3981E3997D0009C1A46 /* FSCalendarDelegationProxy.h */,
+				DD28F3991E3997D0009C1A46 /* FSCalendarDelegationProxy.m */,
+				DD28F39A1E3997D0009C1A46 /* FSCalendarDynamicHeader.h */,
+				DD28F39B1E3997D0009C1A46 /* FSCalendarExtensions.h */,
+				DD28F39C1E3997D0009C1A46 /* FSCalendarExtensions.m */,
+				DD28F39D1E3997D0009C1A46 /* FSCalendarHeaderView.h */,
+				DD28F39E1E3997D0009C1A46 /* FSCalendarHeaderView.m */,
+				DD28F39F1E3997D0009C1A46 /* FSCalendarScopeHandle.h */,
+				DD28F3A01E3997D0009C1A46 /* FSCalendarScopeHandle.m */,
+				DD28F3A11E3997D0009C1A46 /* FSCalendarStickyHeader.h */,
+				DD28F3A21E3997D0009C1A46 /* FSCalendarStickyHeader.m */,
+				DD28F3A31E3997D0009C1A46 /* FSCalendarTransitionCoordinator.h */,
+				DD28F3A41E3997D0009C1A46 /* FSCalendarTransitionCoordinator.m */,
+				DD28F3A51E3997D0009C1A46 /* FSCalendarWeekdayView.h */,
+				DD28F3A61E3997D0009C1A46 /* FSCalendarWeekdayView.m */,
+			);
+			name = FSCalendar;
+			sourceTree = "<group>";
+		};
+		DD28F3C61E3A2F8C009C1A46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CBA011E436E210070F0D3 /* RatingBar.swift */,
+				DDACA6271E3E49FD008D1E5F /* QRCodeReader */,
+				DD9238111E38DAB00010EF71 /* SWRevealViewController */,
+				DD28F3B91E3997DA009C1A46 /* FSCalendar */,
+				DDCA84061E3A6FE800240A8B /* Toast.swift */,
+				DD671A221E3B53C200AB0FEC /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DD9237C71E3833390010EF71 = {
+			isa = PBXGroup;
+			children = (
+				DD9237D21E38333A0010EF71 /* Budget_app */,
+				DD9237E71E38333A0010EF71 /* Budget_appTests */,
+				DD9237F21E38333A0010EF71 /* Budget_appUITests */,
+				DD9237D11E38333A0010EF71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9237D11E38333A0010EF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9237D01E38333A0010EF71 /* Budget_app.app */,
+				DD9237E41E38333A0010EF71 /* Budget_appTests.xctest */,
+				DD9237EF1E38333A0010EF71 /* Budget_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9237D21E38333A0010EF71 /* Budget_app */ = {
+			isa = PBXGroup;
+			children = (
+				DD28F3C61E3A2F8C009C1A46 /* Utils */,
+				DD28F3A71E3997D0009C1A46 /* Info.plist */,
+				DD9238061E38CB200010EF71 /* View */,
+				DD9238011E383CEA0010EF71 /* Controller */,
+				DD9237D31E38333A0010EF71 /* AppDelegate.swift */,
+				DD9237D71E38333A0010EF71 /* Main.storyboard */,
+				DD9237DA1E38333A0010EF71 /* Assets.xcassets */,
+				DD9237DC1E38333A0010EF71 /* LaunchScreen.storyboard */,
+				DD9237DF1E38333A0010EF71 /* Info.plist */,
+				DD92380D1E38DA950010EF71 /* Budget_app-Bridging-Header.h */,
+			);
+			path = Budget_app;
+			sourceTree = "<group>";
+		};
+		DD9237E71E38333A0010EF71 /* Budget_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9237E81E38333A0010EF71 /* Budget_appTests.swift */,
+				DD9237EA1E38333A0010EF71 /* Info.plist */,
+			);
+			path = Budget_appTests;
+			sourceTree = "<group>";
+		};
+		DD9237F21E38333A0010EF71 /* Budget_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9237F31E38333A0010EF71 /* Budget_appUITests.swift */,
+				DD9237F51E38333A0010EF71 /* Info.plist */,
+			);
+			path = Budget_appUITests;
+			sourceTree = "<group>";
+		};
+		DD9238011E383CEA0010EF71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD9238121E391FFA0010EF71 /* MenuViewController.swift */,
+				DD9238021E383D0B0010EF71 /* StartViewController.swift */,
+				DD9238041E38B4080010EF71 /* PunchCardController.swift */,
+				DD28F3831E398CF0009C1A46 /* ReservationViewController.swift */,
+				DD28F3BA1E39A71B009C1A46 /* LeaderboardViewController.swift */,
+				DD28F3BE1E39D4AB009C1A46 /* SuggestionViewController.swift */,
+				DD28F3C01E39DC71009C1A46 /* RandomViewController.swift */,
+				DD28F3C21E39EF1A009C1A46 /* AboutViewController.swift */,
+				DDAA63D51E3F8BE8004F9829 /* WebViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DD9238061E38CB200010EF71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DD9238111E38DAB00010EF71 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD92380E1E38DA950010EF71 /* SWRevealViewController.h */,
+				DD92380F1E38DA950010EF71 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		DDACA6271E3E49FD008D1E5F /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				DDACA6131E3E49F7008D1E5F /* QRCodeReader.swift */,
+				DDACA6141E3E49F7008D1E5F /* QRCodeReaderResult.swift */,
+				DDACA6151E3E49F7008D1E5F /* QRCodeReaderView.swift */,
+				DDACA6161E3E49F7008D1E5F /* QRCodeReaderViewContainer.swift */,
+				DDACA6171E3E49F7008D1E5F /* QRCodeReaderViewController.swift */,
+				DDACA6181E3E49F7008D1E5F /* QRCodeReaderViewControllerBuilder.swift */,
+				DDACA6191E3E49F7008D1E5F /* QRCodeReaderViewControllerDelegate.swift */,
+				DDACA61A1E3E49F7008D1E5F /* ReaderOverlayView.swift */,
+				DDACA61B1E3E49F7008D1E5F /* SwitchCameraButton.swift */,
+				DDACA61C1E3E49F7008D1E5F /* ToggleTorchButton.swift */,
+			);
+			name = QRCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9237CF1E3833390010EF71 /* Budget_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9237F81E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_app" */;
+			buildPhases = (
+				DD9237CC1E3833390010EF71 /* Sources */,
+				DD9237CD1E3833390010EF71 /* Frameworks */,
+				DD9237CE1E3833390010EF71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Budget_app;
+			productName = Budget_app;
+			productReference = DD9237D01E38333A0010EF71 /* Budget_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9237E31E38333A0010EF71 /* Budget_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9237FB1E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_appTests" */;
+			buildPhases = (
+				062180AEF339B3DBFB58EB1D /* [CP] Check Pods Manifest.lock */,
+				DD9237E01E38333A0010EF71 /* Sources */,
+				DD9237E11E38333A0010EF71 /* Frameworks */,
+				DD9237E21E38333A0010EF71 /* Resources */,
+				53883E11DAB59C7C572F7F31 /* [CP] Embed Pods Frameworks */,
+				2C5EBD14C95CCEDCDFE1D0FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9237E61E38333A0010EF71 /* PBXTargetDependency */,
+			);
+			name = Budget_appTests;
+			productName = Budget_appTests;
+			productReference = DD9237E41E38333A0010EF71 /* Budget_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9237EE1E38333A0010EF71 /* Budget_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9237FE1E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_appUITests" */;
+			buildPhases = (
+				E57811DC6924839D539B8BEE /* [CP] Check Pods Manifest.lock */,
+				DD9237EB1E38333A0010EF71 /* Sources */,
+				DD9237EC1E38333A0010EF71 /* Frameworks */,
+				DD9237ED1E38333A0010EF71 /* Resources */,
+				B292D5C2BA11CE2D7E61AC98 /* [CP] Embed Pods Frameworks */,
+				95EDF53DAC10DADC7B1BFC1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9237F11E38333A0010EF71 /* PBXTargetDependency */,
+			);
+			name = Budget_appUITests;
+			productName = Budget_appUITests;
+			productReference = DD9237EF1E38333A0010EF71 /* Budget_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9237C81E3833390010EF71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aulavara Design & Development";
+				TargetAttributes = {
+					DD9237CF1E3833390010EF71 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GNYSKQUD7K;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					DD9237E31E38333A0010EF71 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD9237CF1E3833390010EF71;
+					};
+					DD9237EE1E38333A0010EF71 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD9237CF1E3833390010EF71;
+					};
+				};
+			};
+			buildConfigurationList = DD9237CB1E3833390010EF71 /* Build configuration list for PBXProject "Budget_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9237C71E3833390010EF71;
+			productRefGroup = DD9237D11E38333A0010EF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9237CF1E3833390010EF71 /* Budget_app */,
+				DD9237E31E38333A0010EF71 /* Budget_appTests */,
+				DD9237EE1E38333A0010EF71 /* Budget_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9237CE1E3833390010EF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28F3B81E3997D0009C1A46 /* Info.plist in Resources */,
+				DD9237DE1E38333A0010EF71 /* LaunchScreen.storyboard in Resources */,
+				DD9237DB1E38333A0010EF71 /* Assets.xcassets in Resources */,
+				DD9237D91E38333A0010EF71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237E21E38333A0010EF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237ED1E38333A0010EF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062180AEF339B3DBFB58EB1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5EBD14C95CCEDCDFE1D0FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget_appTests/Pods-Budget_appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53883E11DAB59C7C572F7F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget_appTests/Pods-Budget_appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EDF53DAC10DADC7B1BFC1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget_appUITests/Pods-Budget_appUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B292D5C2BA11CE2D7E61AC98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget_appUITests/Pods-Budget_appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57811DC6924839D539B8BEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9237CC1E3833390010EF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28F3AF1E3997D0009C1A46 /* FSCalendarConstants.m in Sources */,
+				DD9238131E391FFA0010EF71 /* MenuViewController.swift in Sources */,
+				DDACA6211E3E49F7008D1E5F /* QRCodeReaderViewController.swift in Sources */,
+				DDACA6261E3E49F7008D1E5F /* ToggleTorchButton.swift in Sources */,
+				DD28F3A91E3997D0009C1A46 /* FSCalendar+Deprecated.m in Sources */,
+				DD28F3A81E3997D0009C1A46 /* FSCalendar.m in Sources */,
+				DD28F3AA1E3997D0009C1A46 /* FSCalendarAppearance.m in Sources */,
+				DD28F3AE1E3997D0009C1A46 /* FSCalendarCollectionViewLayout.m in Sources */,
+				DD28F3B51E3997D0009C1A46 /* FSCalendarStickyHeader.m in Sources */,
+				DD9237D41E38333A0010EF71 /* AppDelegate.swift in Sources */,
+				DD671A231E3B53C300AB0FEC /* Utils.swift in Sources */,
+				DDACA6251E3E49F7008D1E5F /* SwitchCameraButton.swift in Sources */,
+				DD28F3BF1E39D4AB009C1A46 /* SuggestionViewController.swift in Sources */,
+				DD28F3B11E3997D0009C1A46 /* FSCalendarDelegationProxy.m in Sources */,
+				DD9238031E383D0B0010EF71 /* StartViewController.swift in Sources */,
+				DD28F3B61E3997D0009C1A46 /* FSCalendarTransitionCoordinator.m in Sources */,
+				DDACA61E1E3E49F7008D1E5F /* QRCodeReaderResult.swift in Sources */,
+				DD28F3AB1E3997D0009C1A46 /* FSCalendarCalculator.m in Sources */,
+				DDCA84071E3A6FE800240A8B /* Toast.swift in Sources */,
+				DD28F3AD1E3997D0009C1A46 /* FSCalendarCollectionView.m in Sources */,
+				DD28F3B21E3997D0009C1A46 /* FSCalendarExtensions.m in Sources */,
+				DD28F3B71E3997D0009C1A46 /* FSCalendarWeekdayView.m in Sources */,
+				DD9238051E38B4080010EF71 /* PunchCardController.swift in Sources */,
+				DDAA63D61E3F8BE8004F9829 /* WebViewController.swift in Sources */,
+				DDACA6221E3E49F7008D1E5F /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				DDACA6201E3E49F7008D1E5F /* QRCodeReaderViewContainer.swift in Sources */,
+				DD28F3B41E3997D0009C1A46 /* FSCalendarScopeHandle.m in Sources */,
+				DD28F3AC1E3997D0009C1A46 /* FSCalendarCell.m in Sources */,
+				DD28F3BB1E39A71B009C1A46 /* LeaderboardViewController.swift in Sources */,
+				DDACA61D1E3E49F7008D1E5F /* QRCodeReader.swift in Sources */,
+				DD28F3C11E39DC71009C1A46 /* RandomViewController.swift in Sources */,
+				DD28F3841E398CF0009C1A46 /* ReservationViewController.swift in Sources */,
+				DDACA6241E3E49F7008D1E5F /* ReaderOverlayView.swift in Sources */,
+				DD28F3B01E3997D0009C1A46 /* FSCalendarDelegationFactory.m in Sources */,
+				DD28F3B31E3997D0009C1A46 /* FSCalendarHeaderView.m in Sources */,
+				DDACA61F1E3E49F7008D1E5F /* QRCodeReaderView.swift in Sources */,
+				DD4CBA021E436E210070F0D3 /* RatingBar.swift in Sources */,
+				DD28F3C31E39EF1A009C1A46 /* AboutViewController.swift in Sources */,
+				DDACA6231E3E49F7008D1E5F /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				DD9238101E38DA950010EF71 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237E01E38333A0010EF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9237E91E38333A0010EF71 /* Budget_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9237EB1E38333A0010EF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9237F41E38333A0010EF71 /* Budget_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9237E61E38333A0010EF71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9237CF1E3833390010EF71 /* Budget_app */;
+			targetProxy = DD9237E51E38333A0010EF71 /* PBXContainerItemProxy */;
+		};
+		DD9237F11E38333A0010EF71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9237CF1E3833390010EF71 /* Budget_app */;
+			targetProxy = DD9237F01E38333A0010EF71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9237D71E38333A0010EF71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9237D81E38333A0010EF71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9237DC1E38333A0010EF71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9237DD1E38333A0010EF71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9237F61E38333A0010EF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9237F71E38333A0010EF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9237F91E38333A0010EF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GNYSKQUD7K;
+				INFOPLIST_FILE = Budget_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Budget_app/Budget_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD9237FA1E38333A0010EF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GNYSKQUD7K;
+				INFOPLIST_FILE = Budget_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Budget_app/Budget_app-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD9237FC1E38333A0010EF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Budget_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Budget_app.app/Budget_app";
+			};
+			name = Debug;
+		};
+		DD9237FD1E38333A0010EF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Budget_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Budget_app.app/Budget_app";
+			};
+			name = Release;
+		};
+		DD9237FF1E38333A0010EF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Budget_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Budget_app;
+			};
+			name = Debug;
+		};
+		DD9238001E38333A0010EF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Budget_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ADD.Budget-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Budget_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9237CB1E3833390010EF71 /* Build configuration list for PBXProject "Budget_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9237F61E38333A0010EF71 /* Debug */,
+				DD9237F71E38333A0010EF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9237F81E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9237F91E38333A0010EF71 /* Debug */,
+				DD9237FA1E38333A0010EF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9237FB1E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9237FC1E38333A0010EF71 /* Debug */,
+				DD9237FD1E38333A0010EF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9237FE1E38333A0010EF71 /* Build configuration list for PBXNativeTarget "Budget_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9237FF1E38333A0010EF71 /* Debug */,
+				DD9238001E38333A0010EF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9237C81E3833390010EF71 /* Project object */;
+}
